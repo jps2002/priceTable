@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppings", sans-serif;
+}
+
+body {
+    height: 100%;
+    background: black;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    max-width: 700px; 
+    min-width: 350px;
+    padding: 60px 30px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+input {
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid #585858;
+    color: #585858;
+    padding: 2px 15px;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2.4px solid #01e26e;  
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-wrapper input {
+    width: 100%;
+}
+
+button {
+    display: block;
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    margin: 20px auto 0 auto;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#result{
+    background-color: rgba(0, 0, 0, 0.1);;
+    margin-top: 30px;
+    color: #585858;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+#result div {
+    margin-bottom: 10px;
+}
+
+#result span {
+    color: #000000;
+    font-weight: 500;
+
+}
+
+#result p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+
