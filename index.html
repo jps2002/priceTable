@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest calculator</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="index.css"/>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Crédito Direto ao Consumidor</h1>
+        <div class="input-wrapper">
+            <div class="wrapper">
+                <label for="principal">Valor financiado($)</label>
+                <input type="number" id="principal" value="">
+            </div>
+            <div class="wrapper"> 
+                <label for="rate">Taxa de juros:</label>
+                <input type="number" id="rate" value="" />
+            </div>
+
+            <div class="wrapper">
+                <label for="time">Parcelamento(meses):</label>
+                <input type="number" id="time" value="" />
+            </div>
+            <div class="wrapper">
+                <label for="discount">Valor a voltar(opcional):</label>
+                <input type="number" id="discount" value="" />
+            </div>
+            <div class="wrapper">
+                <label for="final">Valor final(opcional):</label>
+                <input type="number" id="final" value="" />
+            </div>
+        </div>
+        <button id="calculate-btn">Calcular</button>
+        
+        <div id="result">
+            <table>
+                <caption>Tabela Price</caption>
+            </table>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
